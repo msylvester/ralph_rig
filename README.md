@@ -1,5 +1,7 @@
 # A11y Guardian
 
+![Claudette](claudette_exe.png)
+
 An Accessibility Auditor plugin for Claude Code that helps ensure your web applications meet WCAG 2.1/2.2 accessibility standards.
 
 ## Features
