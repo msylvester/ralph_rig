@@ -22,26 +22,26 @@ npm install
 
 ## Commands
 
-### `/a11y-audit`
+### `/claudette`
 
 Run a full accessibility audit on your codebase.
 
 ```bash
-/a11y-audit                           # Audit all supported files
-/a11y-audit src/**/*.jsx              # Audit specific files
-/a11y-audit --level AAA               # Check AAA compliance
-/a11y-audit --format markdown         # Output as markdown
+/claudette                           # Audit all supported files
+/claudette src/**/*.jsx              # Audit specific files
+/claudette --level AAA               # Check AAA compliance
+/claudette --format markdown         # Output as markdown
 ```
 
-### `/a11y-fix`
+### `/claudette-fix`
 
 Auto-fix common accessibility issues.
 
 ```bash
-/a11y-fix                             # Fix all files
-/a11y-fix src/components/             # Fix specific directory
-/a11y-fix --dry-run                   # Preview changes
-/a11y-fix --interactive               # Confirm each fix
+/claudette-fix                             # Fix all files
+/claudette-fix src/components/             # Fix specific directory
+/claudette-fix --dry-run                   # Preview changes
+/claudette-fix --interactive               # Confirm each fix
 ```
 
 ### `/contrast-check`
@@ -88,7 +88,7 @@ Validate color contrast ratios.
 
 ## Auto-Fix Capabilities
 
-The `/a11y-fix` command can automatically fix:
+The `/claudette-fix` command can automatically fix:
 
 - **Missing alt attributes** - Adds `alt=""` (decorative placeholder)
 - **Missing form labels** - Adds `aria-label` with intelligent text
