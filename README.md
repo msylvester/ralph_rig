@@ -1,8 +1,10 @@
-# A11y Guardian
+# Claudette - Accessibility for Claude Code
 
 ![Claudette](claudette_exe.png)
 
-An Accessibility Auditor plugin for Claude Code that helps ensure your web applications meet WCAG 2.1/2.2 accessibility standards.
+**A Claude skill that makes your repository WCAG compliant.**
+
+Claudette is an accessibility auditor skill for Claude Code that automatically checks and fixes your web applications to meet WCAG 2.1/2.2 accessibility standards. Simply install this skill and use the commands to audit, fix, and validate accessibility across your entire codebase.
 
 ## Features
 
