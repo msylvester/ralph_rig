@@ -1,6 +1,6 @@
 # Claudette - Accessibility for Claude Code
 
-![Claudette](claudette_exe.png)
+![Claudette](claudette_image.webp)
 
 **A Claude skill that makes your repository WCAG compliant.**
 
