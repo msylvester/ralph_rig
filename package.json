@@ -1,22 +1,37 @@
 {
-  "name": "wcag-non-compliant-demo",
-  "private": true,
+  "name": "a11y-guardian",
   "version": "1.0.0",
-  "description": "A React project demonstrating common WCAG accessibility violations for educational purposes",
-  "type": "module",
+  "description": "Accessibility Auditor plugin for Claude Code - WCAG 2.1/2.2 compliance checking, auto-fixes, and contrast validation",
+  "main": "skills/a11y-guardian/src/index.js",
+  "type": "commonjs",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msylvester/ralph_rig.git"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "claude-code",
+    "plugin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msylvester/ralph_rig/issues"
+  },
+  "homepage": "https://github.com/msylvester/ralph_rig#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.17",
+    "vitest": "^4.0.17"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0"
+    "cheerio": "^1.1.2",
+    "css-tree": "^3.1.0"
   }
 }
