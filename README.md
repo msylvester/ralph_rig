@@ -1,5 +1,7 @@
 # WCAG Non-Compliant React Demo
 
+![Claudette.exe](claudette_exe.png)
+
 A React project that intentionally demonstrates common WCAG (Web Content Accessibility Guidelines) violations for **educational and testing purposes**.
 
 ## Purpose
